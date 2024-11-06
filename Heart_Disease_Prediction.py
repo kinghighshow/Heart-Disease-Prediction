@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load('Downloads/svc_model.joblib')
+model = joblib.load('svc_model.joblib')
 
 # Streamlit app title
 st.title("Heart Disease Prediction with SVC")
